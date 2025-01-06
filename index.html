@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smart Transportation Management System</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file for styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #005f73;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #003049;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffdd57;
+        }
+
+        .container {
+            padding: 2rem;
+        }
+
+        h2 {
+            color: #003049;
+        }
+
+        .feature, .highlight {
+            background-color: white;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h3, .highlight h3 {
+            color: #005f73;
+        }
+
+        footer {
+            background-color: #003049;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .main-image {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Smart Transportation Management System</h1>
+        <p>Providing access to transport and reducing environmental impact with cutting-edge technology</p>
+    </header>
+
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#algorithms">Algorithms</a>
+        <a href="#emergency-services">Emergency Services</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Features Section -->
+        <section id="features">
+            <h2>Key Features</h2>
+
+            <div class="feature">
+                <h3>Time Lookup Between Places</h3>
+                <p>Search for travel times between two locations using pre-calculated or real-time data.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Exploring Nearby Locations (DFS)</h3>
+                <p>Use Depth First Search (DFS) to suggest nearby places for casual exploration.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Shortest Path Finder (Dijkstra’s Algorithm)</h3>
+                <p>Find the optimal path between two locations using Dijkstra’s algorithm for minimum travel time.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Level-by-Level Travel (BFS)</h3>
+                <p>Explore locations level by level using Breadth First Search (BFS) to gradually expand your route.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Connected Shortest Path Tour (Prim’s Algorithm)</h3>
+                <p>Visit all places with the shortest connected paths using Prim’s algorithm.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Disconnected Shortest Path Tour (Kruskal’s Algorithm)</h3>
+                <p>Cover all locations in the shortest possible paths, even if they’re not connected, using Kruskal’s algorithm.</p>
+            </div>
+        </section>
+
+        <!-- Highlights Section -->
+        <section id="highlights">
+            <h2>Highlights</h2>
+
+            <div class="highlight">
+                <h3>Direct Navigation Input</h3>
+                <p>Users can manually input their destination and receive travel guidance.</p>
+            </div>
+
+            <div class="highlight">
+                <h3>Payment System</h3>
+                <p>Integrated payment system to complete travel-related transactions.</p>
+            </div>
+
+            <div class="highlight">
+                <h3>User Ratings</h3>
+                <p>Users can rate the service and provide feedback on their experience.</p>
+            </div>
+        </section>
+
+        <!-- Emergency Services Section -->
+        <section id="emergency-services">
+            <h2>Emergency Services</h2>
+
+            <div class="highlight">
+                <h3>Hospital</h3>
+                <p>Get directions to the nearest hospital in case of emergencies.</p>
+            </div>
+
+            <div class="highlight">
+                <h3>Police Station</h3>
+                <p>Find the closest police station for urgent matters.</p>
+            </div>
+
+            <div class="highlight">
+                <h3>Fire Department</h3>
+                <p>Quickly navigate to the nearest fire department during critical situations.</p>
+            </div>
+        </section>
+
+        <!-- Algorithms Section -->
+        <section id="algorithms">
+            <h2>Algorithms Used</h2>
+            <p>Various algorithms have been implemented to enhance the efficiency of the system:</p>
+            <ul>
+                <li><strong>Dijkstra’s Algorithm:</strong> Optimal pathfinding for shortest routes.</li>
+                <li><strong>DFS (Depth First Search):</strong> Explore nearby locations without worrying about the path.</li>
+                <li><strong>BFS (Breadth First Search):</strong> Level-by-level exploration of places.</li>
+                <li><strong>Prim’s Algorithm:</strong> Ensure a connected shortest path tour.</li>
+                <li><strong>Kruskal’s Algorithm:</strong> Find the shortest paths even when a connected tour isn’t needed.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Smart Transportation Management System &copy; 2025 | Developed by [Your Name]</p>
+    </footer>
+
+</body>
+
+</html>
